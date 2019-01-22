@@ -1,0 +1,27 @@
+{
+  "name": "franky-mobile",
+  "version": "0.1.0",
+  "description": "移动版基于Egg.js与Next.js的通用化封装模板，内含诸多开箱即用的组件",
+  "private": false,
+  "dependencies": {
+    "egg": "^2.14.2",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.10.0"
+  },
+  "engines": {
+    "node": ">8.9.0"
+  },
+  "scripts": {
+    "dev": "egg-bin dev --port=7001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/win-winFE/franky-mobile"
+  },
+  "author": "win-winFE",
+  "license": "MIT"
+}
